@@ -34,15 +34,30 @@
         border-radius: 12px;
         box-shadow: 0 0 30px rgba(255,255,255,0.8), 0 8px 25px rgba(0,0,0,0.2);
       }
+
+      .header-bar {
+        background-color: #d4d4d4;
+        margin: -20px -20px 20px -20px;
+        padding: 20px 20px 15px 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .header-bar h1 {
+        margin: 0;
+      }
     </style>
   </head>
   <body>
-    <h1>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg"
-           width="40" height="40"
-           style="vertical-align: middle; margin-right: 8px;">
-      My Jump'n'Run Game
-    </h1>
+    <div class="header-bar">
+      <h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg"
+             width="40" height="40"
+             style="vertical-align: middle; margin-right: 8px;">
+        My Jump'n'Run Game
+      </h1>
+    </div>
+
     <p>How to play</p>
     <video width="320" height="180" controls loop autoplay muted>
       <source src="Videos/LR_knight.mp4" type="video/mp4">
@@ -56,21 +71,4 @@
       key and move right by pressing either
       <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 8px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">D</span>
       or the
-      <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 8px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">&#8594;</span>
-      key
-    </p>
-
-    <video width="320" height="180" controls loop autoplay muted>
-      <source src="Videos/jump_knight.mp4" type="video/mp4">
-    </video>
-
-    <p>
-      And press
-      <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 10px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">Space</span>,
-      <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 8px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">W</span>
-      or
-      <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 8px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">&#8593;</span>
-      to jump
-    </p>
-  </body>
-</html>
+      <span style="display:inline-block;border:1px solid #ccc;border-radius:4px;padding:2px 8px;margin:0 2px;background:#f7f7f7;font-family:monospace;box-shadow:1px 1px 2px #ddd;">&#8594;</sp
